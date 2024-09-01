@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 // 포트 번호 설정
-const port = 8000;
+const port = 8080;
 
 app.get('/', (req, res) => {
     // 현재 날짜와 시간 객체 생성
