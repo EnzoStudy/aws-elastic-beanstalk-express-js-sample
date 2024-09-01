@@ -25,8 +25,11 @@ app.get('/', (req, res) => {
 
     // 'Hello World!'와 현재 시간 함께 출력
     res.send(`Hello World! The current time is: ${currentTime}`);
-});
 
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
 });
+
+});
+
+
