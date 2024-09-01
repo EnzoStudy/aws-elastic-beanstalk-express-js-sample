@@ -1,7 +1,5 @@
-
 const express = require('express');
 const app = express();
-const port = 8080;
 
 // 포트 번호 설정
 const port = 3000;
@@ -25,11 +23,9 @@ app.get('/', (req, res) => {
 
     // 'Hello World!'와 현재 시간 함께 출력
     res.send(`Hello World! The current time is: ${currentTime}`);
+});
 
+// 서버 시작
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
 });
-
-});
-
-
